@@ -4,12 +4,12 @@ This Github app enables integration between Github repositories and Mailchimp. T
 
 Additionally, you can add whatever preprocessors and other magic you want that can build your project.
 
-## Installation
+### Installation
 
 To get started, set up an account on [chimphub.io](https://chimphub.io). Then, you install the app to your Github account.
 
 Now, you can add a `.chimp.json` file to your project with the proper configuration, and you're good to go!
 
-## Open source
+### Open source
 
 This service is open source, but we do offer the backend as a paid subscription.

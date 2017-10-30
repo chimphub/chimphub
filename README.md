@@ -11,3 +11,5 @@ To get started, set up an account on [chimphub.io](https://chimphub.io). Then, y
 Now, you can add a `.chimp.json` file to your project with the proper configuration, and you're good to go!
 
 ## Open source
+
+This service is open source, but we do offer the backend as a paid subscription.

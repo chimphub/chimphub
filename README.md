@@ -13,3 +13,25 @@ Now, you can add a `.chimp.json` file to your project with the proper configurat
 ### Open source
 
 This service is open source, but we do offer the backend as a paid subscription.
+
+### Example config
+
+```
+{
+    "template": {
+        "name": "Test template",
+        "source": "dist/index.html",
+        "prepublish": [
+            { "action": "npm install" },
+            { "action": "npm run build" },
+        ],
+        "preprocessors": [
+            {
+                "type": "sass",
+                "source": "src/styles/main.scss",
+                "inline": true,
+            }
+        ]
+    }
+}
+```
